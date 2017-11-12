@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    height: 100px;
+    height: 50px;
     background: #dbdbdb;
     width: 100%;
     z-index: 10;
@@ -16,13 +16,21 @@ header {
     width: 99%;
     height: 500px;
     position: fixed;
-    top: 100px;
+    top: 50px;
 }
 
 #content {
     width: 100%;
     position: relative;
-    top: 800px;
+    top: 550px;
     background: #ebebeb;
     height: 600px;
+}
+
+.firstSection {
+    display: inline-block;
+    width: 150px;
+    height: 175px;
+    margin: 10px;
+    border: 3px solid #73AD21;
 }
