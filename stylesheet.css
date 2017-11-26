@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*Setting up our grid*/
+.container {
+    width: 100%; /*set the width of the entire website here */
+    top: 100%;
+    position: absolute;
+    background: rgb(156, 155, 155);
+    display: block;
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child, .eleven:first-child,
+.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, 
+.six:first-child {
+    margin-left: 0; /*This line of code make the left-most column align to the left of the screen */
+}
+.eleven {
+    width: 91.5%;
+    float: left;
+    margin-left: 2%;
+}
+.ten {
+    width: 83%;
+    float: left;
+    margin-left: 2%;
+}
+.nine {
+    width: 74.5%;
+    float: left;
+    margin-left: 2%;
+}
+.eight {
+    width: 66%;
+    float: left;
+    margin-left: 2%;
+}
+.seven {
+    width: 57.5%;
+    float: left;
+    margin-left: 2%;
+}
+.six {
+    width: 49%;
+    max-width: 100%;
+    margin-left: 2%;
+    border-radius: 25px;
+    float: left;
+}
+.five {
+    width: 40.5%;
+    float: left;
+    margin-left: 2%;
+}
+.four {
+    width: 32%;
+    float: left;
+    margin-left: 2%;
+}
+.three {
+    width: 23.5%;
+    max-width: 100%;
+    margin-left: 2%;
+    border-radius: 25px;
+    float: left;
+}
+.two {
+    width: 15%;
+    float: left;
+    margin-left: 2%;
+}
+.one {
+    width: 6.5%;
+    float: left;
+    margin-left: 2%;
+}
+.row {
+    clear: both; /*Clear creates new styles for the next row */
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.three:hover,.one:hover, .six:hover {
+    transform: scale(1.05);    
+}
+.hero-image{
+    height: 100%;
+    background: url(photos/earth-space.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+}
+.row2 .six, .row2 .three {
+    height: 333px;
+}
+.row3 .six, .row3 .three {
+    height: 333px;
+    background: rgb(82, 17, 17);
+}
+.row4 .six, .row4 .three {
+    height: 333px;
+    background: rgb(7, 5, 5);
+}
+.last {
+    height: 50px;
+    background-color: rgb(156, 155, 155);
+}
+.hero-image .banner {
+    margin-top: 700px;
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    color: #fff;
+}
+.row2 .left {
+    background: url(photos/img1.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.row2 .middle {
+    background: rgb(82, 81, 81);
+    text-align: center;
+}
+.row2 .right {
+    background: url(photos/img2.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.row3 .left {
+    background: url(photos/linkedin.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.row3 .left a:link {
+    color: white;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.row3 .middle1 {
+    background: url(photos/img4.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.row3 .middle2 {
+    background: #00173f;
+}
+.row3 .right {
+    background: rgb(82, 81, 81);
+}
+.row4 .left {
+    background: url(photos/img3.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.row4 .middle {
+    background: url(photos/github.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.row4 .middle a:link {
+    color: white;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.row4 .right {
+    background: url(photos/img5.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.row2, .row3, .row4, .row5 {
+    padding-top: 30px;
+}
+.last {
+    z-index: 1;
+}
+ 
+.container h2, .container h3 {
+	font-family: 'Pacifico', cursive;
+	font-weight: 400;
+	color: #fff;
+	font-size: 42px;
+	margin: 0 20px;
+	padding: 60px 0 0 0;
+	line-height: 1.5;
+}
+ 
+.container p, .container ul {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	padding: 4px 5px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.row3 .middle2 ul, .row3 .right ul {
+    list-style-type: none;
+}
